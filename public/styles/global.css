@@ -1,0 +1,98 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+* {
+    box-sizing: border-box;
+    color: white;
+}
+a {
+    color: #0070f3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav, nav form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav form {
+    width: 33%;
+}
+
+nav form input[type="search"] {
+    width: 75%;
+    margin: 0 .5em 0 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: auto 20px;
+}
+
+nav ul li a, .banner a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.banner {
+    background-image: url(../images/ak.jpg);
+    height: 12em;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(70, 70, 70);
+    background-blend-mode: multiply;
+}
+
+.link-drop-menu {
+    display: none;
+}
+
+/* card */
+.card-div, .footer-div {
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: 1px 1px 1rem rgb(5, 5, 5);
+}
+
+footer div {
+    width: 23%;
+}
+
+.contact div {
+    border-radius: 1em;
+    background-color: rgb(49, 49, 49);
+    padding: 1em;
+    width: 50%;
+    margin: 0 auto;
+} 
